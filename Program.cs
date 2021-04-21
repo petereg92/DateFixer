@@ -58,12 +58,12 @@ namespace DateFixer
 
                     file.Delete();
 
-                    Console.WriteLine($"RENAMED:\t'{newName}'.");
+                    Console.WriteLine($"RENAMED:\t'{newName}'");
                 }
                 // Else, ignore it.
                 else
                 {
-                    Console.WriteLine($"IGNORED:\t'{file.Name}' ignored.");
+                    Console.WriteLine($"IGNORED:\t'{file.Name}'");
                 }
             }
         }
